@@ -1,3 +1,4 @@
+/* TAG */
 *{
   padding: 0;
   margin: 0;
@@ -26,6 +27,22 @@ ul{
   list-style: none;
 }
 
+a:not(.link a){
+  color: white;
+  text-transform: uppercase;
+  text-decoration: none;
+}
+
+hr{
+  margin: 0 10px;
+}
+
+footer{
+  height: 150px;
+  background-color: lightgrey;
+}
+
+/* CLASS */
 .float-left{
   float: left;
 }
@@ -59,12 +76,6 @@ ul{
   display: inline-block;
   padding: 0 10px;
   font-size: 10px;
-}
-
-a:not(.link a){
-  color: white;
-  text-transform: uppercase;
-  text-decoration: none;
 }
 
 .menu.float-left li:hover, .menu.float-right li:first-child:hover{
@@ -155,9 +166,6 @@ a:not(.link a){
   margin: 20px auto;
 }
 
-hr{
-  margin: 0 10px;
-}
 
 .level{
   background-color: white;
@@ -186,11 +194,6 @@ hr{
   color: #4875af;
 }
 
-footer{
-  height: 150px;
-  background-color: lightgrey;
-}
-
 .inline{
   display: inline-block;
   margin-right: 10px;
@@ -203,7 +206,6 @@ footer{
 .space{
   margin: 0 10px;
 }
-
 
 .help{
   position: fixed;
