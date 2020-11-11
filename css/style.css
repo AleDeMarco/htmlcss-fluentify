@@ -1,0 +1,122 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body{
+  font-family: 'Roboto', sans-serif;
+}
+
+header{
+  background-color: #0d325a;
+  background-image: url(../img/background-header.png);
+  background-size: 60%;
+  background-repeat: no-repeat;
+  background-position: 110% 110%;
+  color: white;
+}
+
+h1{
+  font-size: 50px;
+  margin-bottom: 40px;
+}
+
+main{
+  height: 700px;
+  background-color: blue;
+}
+
+ul{
+  list-style: none;
+}
+
+.float-left{
+  float: left;
+}
+
+.float-right{
+  float: right;
+}
+
+.clearfix::after{
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.container{
+  width: 80%;
+  margin: auto;
+}
+
+.header-nav{
+  height: 80px;
+  background-color: yellow;
+}
+
+.header-logo{
+  width: 15%;
+  background-color: lightblue;
+}
+
+.header-logo img{
+  margin-top: 15px;
+}
+
+.menu{
+  /* width: 40%; */
+  background-color: red;
+  line-height: 80px;
+}
+
+.menu li{
+  display: inline-block;
+  padding: 0 10px;
+}
+
+a{
+  color: white;
+  text-transform: uppercase;
+  text-decoration: none;
+}
+
+.btn{
+ border-radius: 5px;
+ padding: 5px 10px;
+}
+
+.green{
+  background-color: #7cbb02;
+}
+
+.blue{
+  background-color: #0d325a;
+  border: 1px solid white;
+}
+
+.large{
+  padding: 20px;
+}
+
+.jumbotron{
+  height: 470px;
+  background-color: pink;
+  position: relative;
+}
+
+.title{
+  position: absolute;
+  left: 0;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 40%;
+}
+
+
+
+
+.language{
+  height: 120px;
+  background-color: lightgrey;
+}
