@@ -19,9 +19,10 @@ header{
 
 h1{
   font-size: 50px;
-  margin-bottom: 40px;
+  margin-bottom: 50px;
 }
 
+/* CANCELLARE */
 main{
   height: 700px;
   background-color: blue;
@@ -50,29 +51,20 @@ ul{
   margin: auto;
 }
 
-.header-nav{
-  height: 80px;
-  background-color: yellow;
-}
-
-.header-logo{
-  width: 15%;
-  background-color: lightblue;
-}
-
 .header-logo img{
-  margin-top: 15px;
+  margin-top: 10px;
+  width: 150px;
+  margin-right: 40px;
 }
 
 .menu{
-  /* width: 40%; */
-  background-color: red;
   line-height: 80px;
 }
 
 .menu li{
   display: inline-block;
   padding: 0 10px;
+  font-size: 10px;
 }
 
 a{
@@ -83,7 +75,7 @@ a{
 
 .btn{
  border-radius: 5px;
- padding: 5px 10px;
+ padding: 7px 10px;
 }
 
 .green{
@@ -93,6 +85,7 @@ a{
 .blue{
   background-color: #0d325a;
   border: 1px solid white;
+  padding: 7px 25px;
 }
 
 .large{
@@ -101,7 +94,6 @@ a{
 
 .jumbotron{
   height: 470px;
-  background-color: pink;
   position: relative;
 }
 
@@ -110,7 +102,7 @@ a{
   left: 0;
   top: 50%;
   transform: translateY(-50%);
-  width: 40%;
+  width: 50%;
 }
 
 
@@ -118,5 +110,5 @@ a{
 
 .language{
   height: 120px;
-  background-color: lightgrey;
+  background-color: #C9C9C9;
 }
