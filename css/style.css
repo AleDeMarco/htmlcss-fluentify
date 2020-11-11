@@ -161,7 +161,6 @@ hr{
 
 .big-subtitle{
   font-size: 35px;
-  padding-bottom: 10px;
 }
 
 .half{
@@ -175,9 +174,28 @@ hr{
 
 .from-left{
   text-align: left;
+  padding-top: 10px;
   padding-bottom: 30px;
 }
 
 .link a{
   color: #4875af;
+}
+
+footer{
+  height: 150px;
+  background-color: lightgrey;
+}
+
+.inline{
+  display: inline-block;
+  margin-right: 10px;
+}
+
+.height{
+  line-height: 150px;
+}
+
+.space{
+  margin: 0 10px;
 }
