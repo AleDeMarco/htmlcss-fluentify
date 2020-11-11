@@ -22,12 +22,6 @@ h1{
   margin-bottom: 50px;
 }
 
-/* CANCELLARE */
-main{
-  height: 700px;
-  background-color: blue;
-}
-
 ul{
   list-style: none;
 }
@@ -67,7 +61,7 @@ ul{
   font-size: 10px;
 }
 
-a{
+a:not(.link a){
   color: white;
   text-transform: uppercase;
   text-decoration: none;
@@ -155,4 +149,35 @@ a{
 .col hr{
   width: 80px;
   margin: 20px auto;
+}
+
+hr{
+  margin: 0 10px;
+}
+
+.level{
+  background-color: white;
+}
+
+.big-subtitle{
+  font-size: 35px;
+  padding-bottom: 10px;
+}
+
+.half{
+  width: calc(50% - 80px);
+  margin: 40px;
+}
+
+.half img{
+  height: 450px;
+}
+
+.from-left{
+  text-align: left;
+  padding-bottom: 30px;
+}
+
+.link a{
+  color: #4875af;
 }
