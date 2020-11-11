@@ -67,6 +67,10 @@ a:not(.link a){
   text-decoration: none;
 }
 
+.menu.float-left li:hover, .menu.float-right li:first-child:hover{
+  background-color: #7cbb02;
+}
+
 .btn{
  border-radius: 5px;
  padding: 7px 10px;
